@@ -3,6 +3,7 @@ from chat import on_submit
 
 messages = []
 
+
 def receive_message():
     if request.content_type == 'application/json':
         data = request.get_json()
